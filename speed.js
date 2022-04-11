@@ -1,6 +1,6 @@
 module.exports = {
     name: "speed I",
-    category: "player modifications",
+    category: "Movement",
     description: "gives player speed I",
     json: `
     {
