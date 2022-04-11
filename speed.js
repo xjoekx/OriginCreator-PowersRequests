@@ -4,8 +4,8 @@ module.exports = {
     description: "gives player speed I",
     json: `
     {
-    "name": "${power.name}",
-    "description": "${power.description}",
+    "name": "Speed II",
+    "description": "Gives speed",
     "type": "origins:stacking_status_effect",
     "min_stacks": 0,
     "max_stacks": 1,
