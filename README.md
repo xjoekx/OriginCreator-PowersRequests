@@ -1,6 +1,8 @@
 ## Uploading a Power
 We appreciate contributions to this power library and if you would like to upload a power that can be used for this bot, make a [pull request](https://github.com/Exzotic5485/OriginCreator-Powers/pulls), with a js file using the template below & [template.js](https://github.com/Exzotic5485/OriginCreator-Powers/blob/main/template.js)
 
+In the power json, for the field `name` and `description` of the power, please use `{name}` and `{description}`!
+
 ### Template:
 ```js
 module.exports = {
