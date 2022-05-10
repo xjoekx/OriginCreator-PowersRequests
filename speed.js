@@ -1,11 +1,11 @@
 module.exports = {
-    name: "speed I",
+    name: "Speed",
     category: "Movement",
-    description: "gives player speed I",
+    description: "Gives the player speed effect",
     options: [
         {
            title: "Speed Amount",
-           question: "What speed level do you want? _(0 = Level 1)_",
+           question: "What speed level do you want? (0 = Level 1)",
            placeholder: "{speed_level}" 
         }
     ],
