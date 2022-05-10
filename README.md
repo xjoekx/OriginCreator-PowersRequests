@@ -18,7 +18,7 @@ Use [speed.js](https://github.com/Exzotic5485/OriginCreator-Powers/blob/main/spe
 The powers you create can support configurable options for the user. As for example having the user decide the strength level of a status effect, by adding these to your power you can make it more broad and more customisable!
 
 Adding options are as easy as just adding the following to your file:
-````js
+```js
     options: [
         {
             title: "Option 1",
@@ -32,6 +32,7 @@ Adding options are as easy as just adding the following to your file:
         }
     ]
 ```
+
 
 ### Categories
 | Item         | Description |
