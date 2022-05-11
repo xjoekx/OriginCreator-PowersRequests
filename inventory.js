@@ -4,11 +4,11 @@ module.exports = {
 	description: "Gives the Player a Shulk-like Inventory",
 	options: [{
 		title: "Title",
-		question: "What Name should the Inventory have ?",
+		question: "What Name should the Inventory itself have ?",
 		placeholder: "{title}"
 	},{
 		title: "Key",
-		question: "What Key should the Inventory use ?",
+		question: "What Key should the Inventory use ? (e.g. primary_active)",
 		placeholder: "{key}"
 	},
   },{
