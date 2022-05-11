@@ -8,13 +8,15 @@ module.exports = {
 		placeholder: "{title}"
 	},{
 		title: "Key",
-		question: "What Key should the Inventory use ? (e.g. primary_active)",
-		placeholder: "{key}"
+		question: "What Key should the Inventory use ?",
+		placeholder: "{key}",
+		example: "primary , secondary"
 	},
   },{
 		title: "Drops",
-		question: "Should the Inventory drop on death ?(true, false)",
-		placeholder: "{drop}"
+		question: "Should the Inventory drop on death ?",
+		placeholder: "{drop}",
+	  	example: "true , false"
 	}
   ],
 	json: `{
@@ -24,7 +26,7 @@ module.exports = {
           "title": "{title}",
           "drop_on_death": {drop},
             "key": {
-              "key": "key.origins.{key}",
+              "key": "key.origins.{key}_active",
                "continuous": false
         }
     }`
