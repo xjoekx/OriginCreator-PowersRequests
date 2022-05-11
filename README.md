@@ -30,7 +30,8 @@ Adding options are as easy as just adding the following to your file:
         {
             title: "Option 2",
             question: "Example of a question?",
-            placeholder: "{example}" 
+            placeholder: "{example}",
+            example: "Shoeborne" // This will show in the modal popup as a placeholder for that textbox (Not Required)
         }
     ]
 ```
