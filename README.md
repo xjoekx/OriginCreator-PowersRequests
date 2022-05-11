@@ -17,6 +17,8 @@ Use [speed.js](https://github.com/Exzotic5485/OriginCreator-Powers/blob/main/spe
 ### Options:
 The powers you create can support configurable options for the user. As for example having the user decide the strength level of a status effect, by adding these to your power you can make it more broad and more customisable!
 
+
+> Please keep questions to a character limit of "45" this is discords limit and it will not display if over.
 Adding options are as easy as just adding the following to your file:
 ```js
     options: [
