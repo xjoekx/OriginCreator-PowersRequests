@@ -19,10 +19,10 @@ module.exports = {
 		question: "How much should the Value be for the Feet Slot?",
 		placeholder: "{feet}"
 	},{
-		title: "Invert",
-		question: "Should it invert/reverse?",
-		placeholder: "{invert}",
-    example: ">(Normal) , <(Invert)"
+		title: "Behaviour",
+		question: "Should it have a different Behaviour ?",
+		placeholder: "{comparison}",
+    example: ">(Normal) , >= , == , <= , <"
 	}
            ],
 	json: `{
@@ -31,22 +31,22 @@ module.exports = {
         "type": "origins:restrict_armor",
     "head": {
         "type": "origins:armor_value",
-        "comparison": "{invert}",
+        "comparison": "{comparison}",
         "compare_to": {head}
     },
     "chest": {
         "type": "origins:armor_value",
-        "comparison": "{invert}",
+        "comparison": "{comparison}",
         "compare_to": {chest}
     },
     "legs": {
         "type": "origins:armor_value",
-        "comparison": "{invert}",
+        "comparison": "{comparison}",
         "compare_to": {legs}
     },
     "feet": {
         "type": "origins:armor_value",
-        "comparison": "{invert}",
+        "comparison": "{comparison}",
         "compare_to": {feet}
     }
     }`
