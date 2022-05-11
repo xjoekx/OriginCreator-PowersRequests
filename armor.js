@@ -22,7 +22,7 @@ module.exports = {
 		title: "Behaviour",
 		question: "Should it have a different Behaviour ?",
 		placeholder: "{comparison}",
-    example: ">(Normal) , >= , == , <= , <"
+    example: ">(Normal) , => , == , =< , <"
 	}
            ],
 	json: `{
