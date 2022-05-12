@@ -7,7 +7,7 @@ module.exports = {
            title: "Enchanted Weakness",
            question: "What enchantment do you take more damage from?",
            placeholder: "{enchantment}",
-           example: "0"
+           example: "smite"
         }
     ],
     json: `{
