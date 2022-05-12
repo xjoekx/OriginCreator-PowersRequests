@@ -1,7 +1,7 @@
 module.exports = {
     name: "Aggression",
     category: "Passive",
-    description: "The less HP you have, the more powerful your attacks become. When at half a heart, you are 3x more powerful.",
+    description: "The less HP you have, the more powerful your attacks become. When at half a heart, you become more powerful.",
     options: [
         {
             title: "Aggression Amount",
