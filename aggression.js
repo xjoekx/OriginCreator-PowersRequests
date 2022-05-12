@@ -12,7 +12,7 @@ module.exports = {
     ],
     json: `{
    "name":"{name}",
-   "description":"{description}"
+   "description":"{description}",
    "type":"origins:multiple",
    "1":{
       "type":"origins:conditioned_attribute",
@@ -164,5 +164,5 @@ module.exports = {
          "compare_to":2
       }
    }
-}`,
-};
+}`
+}
