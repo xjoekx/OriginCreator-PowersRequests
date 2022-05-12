@@ -4,9 +4,9 @@ module.exports = {
     description: "Gives the player an aura effect with particles.",
     options: [
         {
-           title: "Particle type",
+           title: "Particle Type",
            question: "What particle type are you choosing?",
-           placeholder: "{speed_level}",
+           placeholder: "{particle}",
            example: "end_rod"
         }
     ],
@@ -19,13 +19,11 @@ module.exports = {
       "actions":[
          {
             "type":"origins:execute_command",
-            "permission_level":4,
-            "command":"particle minecraft:end_rod ~ ~ ~ .5 .5 .5 0.0000000001 1 normal @s"
+            "command":"particle minecraft:{particle} ~ ~ ~ .5 .5 .5 0.0000000001 1 normal @s"
          },
          {
             "type":"origins:execute_command",
-            "permission_level":4,
-            "command":"particle minecraft:totem_of_undying ~ ~ ~ -.5 -.5 -.5 .01 5 normal"
+            "command":"particle minecraft:{particle} ~ ~ ~ -.5 -.5 -.5 .01 5 normal"
          }
       ]
    },
