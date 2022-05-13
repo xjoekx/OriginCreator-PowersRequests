@@ -1,7 +1,15 @@
 module.exports = {
     name: "Leap",
     category: "Movement",
-    description: "You can leap forward into the air and travel long distances. (20 second cooldown) [Primary]",
+    description: "You can leap forward into the air and travel long distances. (20 second cooldown) [{key}]",
+    options: [
+        {
+            title: "Key",
+            question: "What Key should activate the power?",
+            placeholder: "{key}",
+            example: "primary, secondary",
+        },
+    ],
     json: `{
    "name":"{name}",
    "description":"{description}",
@@ -27,7 +35,7 @@ module.exports = {
       ]
    },
    "key":{
-      "key":"key.origins.primary_active"
+      "key":"key.origins.{key}_active"
    },
    "cooldown":400,
    "hud_render":{
