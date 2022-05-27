@@ -6,7 +6,8 @@ module.exports = {
         {
            title: "Speed Amount",
            question: "What speed level do you want? (0 = Level 1)",
-           placeholder: "{speed_level}" 
+           placeholder: "{speed_level}",
+           example: "0"
         }
     ],
     json: `
