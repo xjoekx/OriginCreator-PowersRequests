@@ -1,6 +1,6 @@
 module.exports = {
 	name: "Color",
-	category: "Miscellaneous",
+	category: "Player",
 	description: "Changes the Color of the Player",
 	options: [{
 		title: "Red Value",
