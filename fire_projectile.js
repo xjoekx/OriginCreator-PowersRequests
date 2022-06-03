@@ -37,6 +37,8 @@ module.exports = {
     example: "primary , secondary"
 	}],
 	json: `{
+	"name": "{name}",
+        "description": "{description}",
     "type": "origins:fire_projectile",
     "entity_type": "minecraft:{projectile}",
     "cooldown": {cooldown},
