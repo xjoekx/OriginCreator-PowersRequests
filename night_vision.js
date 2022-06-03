@@ -9,6 +9,8 @@ module.exports = {
     example: "0.0 = Min , 1.0 = Max"
 	}],
 	json: `{
+	"name": "{name}",
+        "description": "{description}",
     "type": "origins:night_vision",
     "strength": {strenght}
   }`
