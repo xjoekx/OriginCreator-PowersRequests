@@ -23,6 +23,8 @@ module.exports = {
     example: "(Optional Field), 0-8 are the Hotbar Slots , 39-36 are the Armor Slots"
 	}],
 	json: `{
+	"name": "{name}",
+        "description": "{description}",
     "type": "origins:starting_equipment",
     "stacks": [
         {
