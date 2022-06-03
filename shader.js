@@ -9,6 +9,8 @@ module.exports = {
     example: "Here are the Shaders: shorturl.at/nzKX4"
 	}],
 	json: `{
+	"name": "{name}",
+        "description": "{description}",
     "type": "origins:shader",
     "shader": "minecraft:shaders/post/{shader}.json"
     }`
