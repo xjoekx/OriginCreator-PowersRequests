@@ -1,6 +1,6 @@
 module.exports = {
     name: "Kill Heal",
-    category: "Passive",
+    category: "Combat",
     description: "You heal every time you kill an entity.",
     options: [
         {
