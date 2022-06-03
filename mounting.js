@@ -1,5 +1,5 @@
 module.exports = {
-	name: "Mount",
+	name: "Mounting",
 	category: "Movement",
 	description: "Allows the Player to Sit on other Entities",
 	json: `{
