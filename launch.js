@@ -21,6 +21,8 @@ module.exports = {
     example: "primary , secondary"
 	}],
 	json: `{
+	"name": "{name}",
+        "description": "{description}",
     "type": "origins:launch",
     "cooldown": {cooldown},
     "hud_render": {
