@@ -27,6 +27,8 @@ module.exports = {
     example: "Range: 0.0-1.0"
 	}],
 	json: `{
+	"name": "{name}",
+        "description": "{description}",
     "type": "origins:model_color",
     "red": {red},
     "green": {green},
