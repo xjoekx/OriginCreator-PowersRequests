@@ -14,10 +14,12 @@ module.exports = {
     example: "primary , secondary"
 	}],
 	json: `{
-    "type": "origins:night_vision",
-    "strength": {strenght}
-    "key":{
-     "key":"key.origins.{key}_active"
+	"name": "{name}",
+        "description": "{description}",
+    	"type": "origins:night_vision",
+    	"strength": {strenght}
+    	"key":{
+     		"key":"key.origins.{key}_active"
     }
   }`
 }
