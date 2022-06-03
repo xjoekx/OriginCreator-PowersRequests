@@ -9,6 +9,8 @@ module.exports = {
     example: "water , lava"
 	}],
 	json: `{
+	"name": "{name}",
+        "description": "{description}",
     "type": "origins:walk_on_fluid",
     "fluid": "minecraft:{fluid}",
     "condition": {
