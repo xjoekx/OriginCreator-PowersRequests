@@ -9,6 +9,8 @@ module.exports = {
     example: "weakness , speed , etc."
 	}],
 	json: `{
+	"name": "{name}",
+        "description": "{description}",
     "type": "origins:effect_immunity",
     "effects": [
         "minecraft:{effect}"
